@@ -14,13 +14,17 @@
 
 ### About Me
 
-I have over 10 years of experience working as an environmental engineer in two large companies in the field of environmental protection. During this time, I developed valuable skills in data analysis, cross-functional teamwork, reporting, working under tight deadlines, and managing industrial-scale projects.
 
-After relocating and with a strong desire to grow my software skills, I began training as a front-end developer. My goal is to combine my environmental expertise with IT to contribute to the development of meaningful digital solutions and applications aimed at environmental improvement and sustainable development.
+Experience as an environmental engineer in the oil & gas and automotive industries. Responsible for environmental data analysis, technical documentation and reporting, project management, and cross-functional collaboration.
+
+After a company exit led to my position being made redundant, I decided to change my professional path and start a career in IT.
+
+I’m inspired by the opportunity to combine my environmental expertise with digital technologies and contribute to solutions that support sustainability. My goal is to grow as a frontend developer in green IT and build services that make the environment both smarter and cleaner.
 
 ##
 
-### Front-End Development Training
+### Frontend development training
+
 
 _Rolling Scopes School — ongoing_
 
@@ -59,9 +63,11 @@ Log
 
 ##
 
-### Work Experience
 
-#### Senior Environmental Engineer 2019-2023
+### Work experience
+
+#### Senior environmental engineer 2019-2023
+
 
 _LLC Hyundai Motor Manufacturing Rus_
 
@@ -71,7 +77,9 @@ _LLC Hyundai Motor Manufacturing Rus_
   environmental impacts
 - Collecting, analyzing, and reporting environmental data
 
-#### Environmental Engineer 2012-2019
+
+#### Environmental engineer 2012-2019
+
 
 _LLC RN-Yuganskneftegaz_
 
@@ -93,7 +101,7 @@ Rational Use of Natural Resources / 2007-2012_
 
 _BI Analyst / Geekbrains / 2021-2022_
 
-_Front-End Development Training / SD, RS School / 2024-2025_
+_Frontend development training / SD, RS School / 2024-2025_
 
 ##
 
