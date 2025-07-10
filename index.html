@@ -5,144 +5,217 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CV Sabina Batrakova</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Montserrat:wght@600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="/rsschool-cv/reset.css">
     <link rel="stylesheet" href="/rsschool-cv/style.css">
 </head>
 
 <body>
     <header>
-        <h1>SABINA BATRAKOVA</h1>
-        <h2> Junior frontend-developer </h2>
-        <img class='image-avatar' src="/rsschool-cv//images/rscv2.png" alt="my photo" width="150" height="150" />
+        <div class="container header-container">
+            <div class="header-information">
+                <h1>SABINA BATRAKOVA</h1>
+                <h2 class="header-title"> Junior frontend-developer </h2>
 
-        <nav>
-            <ul>
-                <li><a href="#about"></a>About me</li>
-                <li><a href="#training"></a>Frontend development training </li>
-                <li><a href="#experience"></a>Work experience</li>
-                <li><a href="#education"></a>Education</li>
-                <li><a href="#languages"></a>Languages</li>
-            </ul>
-        </nav>
+                <nav class="nav">
+                    <ul class="nav-list">
+                        <li class="nav-item">
+                            <a href="https://t.me/@Sabina_Batrakova" target="_blank" aria-label="Telegram">
+                                <img src="images/telegram_icon.png" alt="Telegram" width="30px" height="30px">
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="https://github.com/SabinaBatrakova?tab=repositories" target="_blank"
+                                aria-label="Github">
+                                <img src="images/github_icon.png" alt="Github icon" width="30px" height="30px">
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="mailto:sabinabatrakova@gmail.com" target="_blank" aria-label="my email">
+                                <img src="images/email_icon.png" alt="Email icon" width="30px" height="30px">
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="https://www.google.com/maps/place/Montenegro" target="_blank"
+                                aria-label="Montenegro">
+                                <img src="images/location_icon.png" alt="Location icon" width="30px" height="30px">
+                            </a>
+                        </li>
+
+                    </ul>
+                </nav>
+            </div>
+
+            <div class="header-photo">
+                <img class='image-avatar' src="/rsschool-cv/images/rscv2.png" alt="my photo" width="200" height="200" />
+            </div>
+        </div>
     </header>
 
-    <main>
-        <section id="about">
-            <h2>Обо мне</h2>
-            <p> Work experience as an environmental engineer in the oil production and automotive industries.<br>
-                Throughout my career, I gained extensive experience in analyzing environmental data, preparing technical
-                documentation and reports, managing projects, and collaborating with various departments.<br>
-                After a layoff due to the company’s exit from the market, I decided to change my professional field and
-                start a career in IT.<br>
-                I am inspired by the opportunity to apply my environmental knowledge in the digital space — to create
-                interfaces and services aimed at solving environmental issues and supporting sustainable
-                development.<br>
-                My goal is to grow as a frontend developer in green IT, participating in projects that make the
-                environment both more technological and more sustainable.
-            </p>
-        </section>
+    <main class="main">
+        <div class="container">
+            <div class="left-column">
+                <section class="section">
+                    <h2 class="section-title">Frontend development training: </h2>
+                    <p class="section-description-left">
+                        Fully immersed in the learning process, actively developing<br>
+                        practical skills and working on
+                        real-world
+                        projects.<br><br>
 
-        <section id="training">
-            <h2>Frontend development training</h2>
-            <h3>Rolling Scopes School — currently</h3>
-            <p> Fully immersed in the learning process, actively developing practical skills and working on real-world
-                projects.<br>
-                Studying HTML5, CSS3, JavaScript, React, BEM, Git, Vite / Webpack / Parcel, NPM / Yarn, REST API / Fetch
-                /Axios, Responsive & Adaptive layout.
-            </p>
+                    <nav class="nav">Pet-projects:
+                        <ul class="nav-list-petprojects">
+                            <li class="nav-item"><a href="https://my-blog-on-react.vercel.app/" class="link"
+                                    target="_blank"> => My blog
+                                    on
+                                    React</a></li>
+                            <li class="nav-item"><a href="https://sabinabatrakova.github.io/Metrica/" class="link"
+                                    target="_blank"> => Metrica</a></li>
+                            <li class="nav-item"><a href="https://sabinabatrakova.github.io/RegistrationForm-React/"
+                                    class="link" target="_blank"> => RegistrationForm-React</a></li>
+                            <li class="nav-item"><a href="https://sabinabatrakova.github.io/MovieList-App/" class="link"
+                                    target="_blank"> => MovieList-App</a></li><br>
+                        </ul>
+                    </nav>
 
-            <article>
-                <h3>Algorithm practice on Codewars:</h3>
-                <p>Task: write a function that takes a list of non-negative integers and strings,
-                    and returns a new list with only the numbers, filtering out the strings.</p>
-                </p>
+                    <p class="section-description-left">Studying:<br>
+                        HTML5, CSS3, JavaScript, React, BEM, Git, <br>
+                        Vite / Webpack / Parcel, NPM / Yarn, <br>REST API
+                        / Fetch /Axios, Responsive & Adaptive layout.
+                    </p><br>
 
-                <h3>Example:</h3>
-                <p><code>filter_list([1,2,'a','b']) == [1,2]</code><br>
-                    <code>filter_list([1,'a','b',0,15]) == [1,0,15]</code>
-                </p>
-                <h3>Solution:</h3>
-                <pre><code> 
-                filter_list(l) {
-                    let result = [];
-                    for (let item of l) {
-                        if (typeof item === 'number') {
-                        result.push(item)
-                        }
-                    }
-                    return result
+                    <p>=> Now styding at <a href="https://rs.school/courses/javascript-preschool-ru" class="link"
+                            target="_blank">
+                            the Rolling Scopes School — JavaScript Preschool course.
+                        </a></p>
+                </section>
+
+                <section class="section" id="#experience">
+                    <h2 class="section-title">Work experience & achievements: </h2>
+                    <ul>
+                        <li>
+                            <h3 class="section-subtitle">
+                                Senior environmental engineer <br>
+                                LLC Hyundai Motor Manufacturing Rus,
+                                2019–2023</h3>
+                            <p class="section-description-left">
+                            <ul>
+                                <li>▫ Monitoring compliance with environmental regulations
+                                    in production</li>
+                                <li>▫ Implementing projects to reduce environmental impact</li>
+                                <li>▫ Collecting, analyzing, and preparing environmental reports</li>
+                                <li>▫ Optimized the monthly waste accounting and recyclable materials sales process
+                                </li>
+                                <li>▫ Initiated separate waste collection at the facility</li>
+                                <li>▫ Raised environmental awareness among employees</li>
+                                <li>▫ Launched recycling initiatives involving local waste management companies</li><br>
+                            </ul>
+                            </p>
+                        </li>
+
+                        <li>
+                            <h3 class="section-subtitle">
+                                Specialist environmental payments & regulation department <br>
+                                LLC RN-Yuganskneftegaz, 2012–2019 </h3>
+                            <p class="section-description-left">
+                            <ul>
+                                <li>▫ Environmental support for oil production
+                                    facilities</li>
+                                <li>▫ Environmental documentation analysis</li>
+                                <li>▫ Project management in sustainable resource use</li>
+                                <li>▫ Data collection and analysis</li>
+                                <li>▫ Developed the logic for waste accounting,<br> regulation,and calculation for
+                                    "RN-Ecology" software in collaboration <br>with the development team.</li>
+                            </ul>
+                            </p>
+                        </li>
+                        </гl>
+                </section>
+
+                <section class="section">
+                    <h2 class="section-title">Education: </h2>
+                    <p class="section-subtitle"> Ufa State Petroleum Technological University</p>
+                    <p class="section-description-left"> Faculty of Technology:<br>
+                        Environmental Engineer in Environmental Protection and Rational Use of Natural Resources (GPA
+                        4.85) / 2007-2012 <br><br>
+                        BI Analyst / Geekbrains / 2021-2022<br>
+                        Frontend development training / SD, RS School / 2024-2025</p>
+                </section>
+            </div>
+
+            <div class="right-column">
+                <section class="section">
+                    <h2 class="section-title">About me</h2>
+                    <p class="section-description"> Work experience as an environmental engineer in the oil
+                        production and automotive industries.<br><br>
+                        Throughout my career, I gained extensive experience in analyzing environmental data,
+                        preparing technical documentation and reports, managing projects, and collaborating with various
+                        departments.<br><br>
+                        After a layoff due to the company’s exit from the market, I decided to change my
+                        professional field and start a career in IT.<br><br>
+                        I am inspired by the opportunity to apply my environmental knowledge in the digital space —
+                        to create interfaces and services aimed at solving environmental issues and supporting
+                        sustainable
+                        development.<br><br>
+                        My goal is to grow as a frontend developer in green IT, participating in projects that make
+                        the environment both more technological and more sustainable.
+                    </p>
+                </section>
+                <section class="section">
+                    <h3 class="section-title">Languages</h3>
+                    <ul class="section-description">
+                        <li>Russian — native</li>
+                        <li>English — intermediate (B1)</li>
+                    </ul>
+                </section>
+                <section class="section">
+                    <article>
+                        <h3 class="section-title">Algorithm practice on Codewars:</h3>
+                        <p class="section-description">Task:<br> write a function that takes a list of non-negative
+                            integers
+                            and strings,
+                            and returns a new list with only the numbers, filtering out the strings.</p>
+                        </p><br>
+                        <h3 class="section-description">Solution:</h3>
+
+                        <pre><code> 
+    filter_list(l) {
+        let result = [];
+            for (let item of l) {
+                if (typeof item === 'number') {
+                result.push(item)
                 }
-                console.log(filter_list([1,2,'a','b']))
+            }
+            return result
+        }
+        console.log(filter_list([1,2,'a','b']))
 
-                // Test Results:
-                Log
-                [ 1, 2 ]
+        // Test Results:
+        Log
+        [ 1, 2 ]
                 </code></pre>
-            </article>
-        </section>
 
-        <section id="#experience">
-            <h2>Work experience & achievements:</h2>
-            <ul>
-                <li>
-                    <h3>Senior environmental engineer / 2019–2023</h3>
-                    <p> LLC Hyundai Motor Manufacturing Rus</p>
-                    <p> - Monitoring compliance with environmental regulations in production<br>
-                        - Implementing projects to reduce environmental impact<br>
-                        - Collecting, analyzing, and preparing environmental reports<br>
-                        - Optimized the monthly waste accounting and recyclable materials sales process<br>
-                        - Initiated separate waste collection at the facility<br>
-                        - Raised environmental awareness among employees<br>
-                        - Launched recycling initiatives involving local waste management companies
-                    </p>
-                </li>
-
-                <li>
-                    <h3>Specialist environmental payments & regulation department / 2012–2019</h3>
-                    <p>LLC RN-Yuganskneftegaz</p>
-                    <p> - Environmental support for oil production facilities<br>
-                        - Environmental documentation analysis<br>
-                        - Project management in sustainable resource use<br>
-                        - Data collection and analysis<br>
-                        - Developed the logic for waste accounting, regulation, and calculation for "RN-Ecology"
-                        software in collaboration with the development team.
-                    </p>
-                </li>
-            </ul>
-        </section>
-
-        <section id="education">
-            <h3>>Education</h3>
-            <p> Ufa State Petroleum Technological University</p>
-            <p> Faculty of Technology<br>
-                Environmental Engineer in Environmental Protection and Rational Use of Natural Resources (GPA 4.85) /
-                2007-2012
-            </p>
-            <p>BI Analyst / Geekbrains / 2021-2022</p>
-            <p>Frontend development training / SD, RS School / 2024-2025</p>
-        </section>
-
-        <section id="#languages">
-            <h3>Languages</h3>
-            <ul>
-                <li>Russian — native</li>
-                <li>English — intermediate (B1)</li>
-            </ul>
-        </section>
+                    </article>
+                </section>
+            </div>
+        </div>
     </main>
 
     <footer>
-        <nav>
-            <ul>
-                <li><a href="github">https://github.com/SabinaBatrakova?tab=repositories</a></li>
-                <li><a href="telegram">@Sabina_Batrakova</a></li>
-                <li><a href="">https://rs.school/courses/javascript-ru</a></li>
-                <li><a href="">https://rs.school/courses/javascript-preschool-ru</a></li>
-                <li><a href="">https://rs.school/courses/javascript</a></li>
-                <li><a href=""></a><img class='image-logo' src="/rsschool-cv/images/rs-school-logo.svg" alt="logo svg"
-                        width="100" height="100"></li>
-            </ul>
-        </nav>
-
+        <div class="container">
+            <nav>
+                <ul>
+                    <li><a href="github">https://github.com/SabinaBatrakova?tab=repositories</a></li>
+                    <li><a href="telegram">@Sabina_Batrakova</a></li>
+                    <li><a href="">https://rs.school/courses/javascript-ru</a></li>
+                    <li><a href="">https://rs.school/courses/javascript-preschool-ru</a></li>
+                    <li><a href="">https://rs.school/courses/javascript</a></li>
+                    <li><a href=""></a><img class='image-logo' src="/rsschool-cv/images/rs-school-logo.svg"
+                            alt="logo svg" width="100" height="100"></li>
+                </ul>
+            </nav>
+        </div>
     </footer>
 
 </body>
