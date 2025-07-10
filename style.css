@@ -37,6 +37,7 @@ main {
 ol,
 ul {
     list-style: none;
+    margin-bottom: 20px;
 }
 
 .header-container {
