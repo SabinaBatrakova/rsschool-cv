@@ -14,6 +14,7 @@
 
 ### About Me
 
+
 Experience as an environmental engineer in the oil & gas and automotive industries. Responsible for environmental data analysis, technical documentation and reporting, project management, and cross-functional collaboration.
 
 After a company exit led to my position being made redundant, I decided to change my professional path and start a career in IT.
@@ -23,6 +24,7 @@ I’m inspired by the opportunity to combine my environmental expertise with dig
 ##
 
 ### Frontend development training
+
 
 _Rolling Scopes School — ongoing_
 
@@ -61,9 +63,11 @@ Log
 
 ##
 
+
 ### Work experience
 
 #### Senior environmental engineer 2019-2023
+
 
 _LLC Hyundai Motor Manufacturing Rus_
 
@@ -73,7 +77,9 @@ _LLC Hyundai Motor Manufacturing Rus_
   environmental impacts
 - Collecting, analyzing, and reporting environmental data
 
+
 #### Environmental engineer 2012-2019
+
 
 _LLC RN-Yuganskneftegaz_
 
